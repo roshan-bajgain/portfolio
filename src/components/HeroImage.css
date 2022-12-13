@@ -42,3 +42,9 @@
     margin: 1rem 0.3rem;
     border-radius: 7px;
 }
+
+@media screen and (max-width:640px) {
+    .hero .content h1 {
+        font-size: 3rem;
+    }
+}
