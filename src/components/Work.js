@@ -1,7 +1,8 @@
 import './WorkCardstyle.css';
+import WorkCard from './WorkCard';
+import WorkCarddata from'./WorkCardData';
 
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 
 const Work = () => {
   return (
@@ -10,17 +11,18 @@ const Work = () => {
             Projects
         </h1>
         <div className="project-container">
-            <div className="project-card">
-                <img src="" alt="image" />
-                <h2 className="project-title">Project Title</h2>
-                <div className="pro-details">
-                    <p>This is my project</p>
-                    <div className="pro-btns">
-                        <NavLink to="url.com" className="btn">Live-demo</NavLink>
-                        <NavLink to="url.com" className="btn">Source</NavLink>
-                    </div>
-                </div>
-            </div>
+            {WorkCarddata.map((val,ind) => {
+                return(
+                    <WorkCard 
+                    key={ind}
+                    imgsrc={val.imgsrc}
+                    title={val.title}
+                    text={val.text}
+                    view={val.view}
+                    source={val.Source}
+                    />
+                )
+            })}
         </div>
     </div>
   )
