@@ -2,6 +2,8 @@ import pro1 from"../assets/conference_app.png"
 import pro2 from"../assets/Disney_api.png"
 import pro3 from"../assets/Motorcycle_booking.png"
 import pro4 from"../assets/Space_travel.png"
+import pro5 from"../assets/leaderboard.png"
+import pro6 from"../assets/covid.png"
 
 const ProjectCardData = [
     {
@@ -31,6 +33,20 @@ const ProjectCardData = [
         text: "Space Traveler's Hub is a single page web application that fatches rockets, missions from the SpaceX API.Users can book and cancel their reservations for rockets and missions. Application has three pages Rockets/Missions/MY Profile, My Profile page shows the list of reserved rockets and missions.",
         view: "https://epic-hugle-d2e175.netlify.app/",
         Source: "https://github.com/roshan-bajgain/space-travelers"
+    },
+        {
+        imgsrc: pro5,
+        title:"Leaderboard",
+        text: "This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API.",
+        view: "https://suspicious-golick-545a0f.netlify.app/",
+        Source: "https://github.com/roshan-bajgain/Leaderboard"
+    },
+          {
+        imgsrc: pro6,
+        title:"Metrics-webapp",
+        text: "Covid19 Metrics is a web application that fectches covid data from API and renders on the screen. It shows all countries with the confirmed covid cases on the homepage, Users can select any country and goto the details page. Details page shows other details for that specific country like recovered cases, confirmed cases, deaths.",
+        view: "https://compassionate-mcnulty-d1bb1e.netlify.app/",
+        Source: "https://github.com/roshan-bajgain/metrics-webapp"
     }
 ]
 
