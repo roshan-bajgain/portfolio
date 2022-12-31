@@ -7,7 +7,7 @@ import Work from '../components/Work';
 const Project = () => (
   <div>
     <Navbar />
-    <HeroImg2 heading = "PROJECTS" text = "Some of my recent works"/>
+    <HeroImg2 heading="PROJECTS" text="Some of my recent works" />
     <Work />
     <Footer />
   </div>
