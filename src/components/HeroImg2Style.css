@@ -7,9 +7,9 @@
 
 .hero-img::before {
   content: "";
-  background: url("../assets/img2.jpg");
+  background: url("../assets/1.png");
   background-size: cover;
-  background-position: center top;
+  background-position: center;
   height: 100%;
   width: 100%;
   position: absolute;
