@@ -2,7 +2,7 @@ import './HeroImage.css';
 import { Link } from 'react-router-dom';
 
 import React from 'react';
-import Image from '../assets/image.jpg';
+import Image from '../assets/image.png';
 
 const HeroImage = () => (
   <div className="hero">
