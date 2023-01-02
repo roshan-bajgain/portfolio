@@ -42,9 +42,9 @@ const Footer = () => (
           junior Developer and guide them in their project
         </p>
         <div className="social">
-          <FaFacebook size={30} style={{ marginRight: '1.5rem', color: '#fff' }} />
-          <FaTwitter size={30} style={{ marginRight: '1.5rem', color: '#fff' }} />
-          <FaLinkedin size={30} style={{ marginRight: '1.5rem', color: '#fff' }} />
+          <a href="https://www.facebook.com/profile.php?id=100079901184692" target="_blank"><FaFacebook size={30} style={{ marginRight: '1.5rem', color: '#fff' }} /></a>
+          <a href="https://twitter.com/RoshanBajgain10" target="_blank"><FaTwitter size={30} style={{ marginRight: '1.5rem', color: '#fff' }} /></a>
+          <a href="https://www.linkedin.com/in/roshan-bazgain/" target="_blank"><FaLinkedin size={30} style={{ marginRight: '1.5rem', color: '#fff' }} /></a>
         </div>
       </div>
     </div>
