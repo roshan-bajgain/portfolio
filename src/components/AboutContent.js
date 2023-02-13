@@ -9,7 +9,7 @@ const AboutContent = () => (
   <div className="about">
     <div className="left">
       <h1>Who am I?</h1>
-      <p>I am a full-stack developer. I create responsive secure website for my clients</p>
+      <p>Hello I’m a web developer! I can help you build a product , feature or website Look through some of my work! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       <Link to="/contact">
         <button className="btn" type="submit">Contact</button>
       </Link>

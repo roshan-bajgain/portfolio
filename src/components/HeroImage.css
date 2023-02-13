@@ -26,7 +26,7 @@
 
 .hero .content {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -36,6 +36,15 @@
   font-size: 4rem;
   font-weight: 600;
   padding: 0.6rem 0 1.5rem;
+}
+
+.paragraph {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.btn {
+  padding-bottom: 10px;
 }
 
 .content .btn {
