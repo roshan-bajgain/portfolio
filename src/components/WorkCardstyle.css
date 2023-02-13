@@ -4,7 +4,7 @@
 }
 
 .project-container {
-  max-width: 1140px;
+  max-width: 1340px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,6 +15,11 @@
 .project-card {
   background: #1a1919;
   padding: 1.2rem 1rem;
+  transition: 1s;
+}
+
+.project-card:hover {
+  transform:scale(1.1);
 }
 
 .project-card img {

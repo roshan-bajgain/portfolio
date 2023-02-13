@@ -37,7 +37,7 @@ const ProjectCardData = [
   {
     imgsrc: pro5,
     title: 'Leaderboard',
-    text: 'This is the project build with webpack and the objective of this project is to use the APL and Use async and await JavaScript features to consume the API.',
+    text: 'This is the Leaderboard project build with webpack and the objective of this project is to use the API and API stands for Application Programming Interface as it Use async and await JavaScript features to consume the API.',
     view: 'https://suspicious-golick-545a0f.netlify.app/',
     Source: 'https://github.com/roshan-bajgain/Leaderboard',
   },
