@@ -7,8 +7,18 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
   const [click, setclick] = useState(false);
   const handleclick = () => setclick(!click); // not clicked
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 150) {
+        setColor(true);
+    }else{
+      setColor(false);
+    }
+  }
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg":"header"}>
       <Link to="/">
         <h1>Roshan</h1>
       </Link>
