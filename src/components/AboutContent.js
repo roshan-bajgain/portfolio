@@ -6,6 +6,7 @@ import react1 from '../assets/react.png';
 import Rails from '../assets/rails.png';
 
 const AboutContent = () => (
+  <>
   <div className="about">
     <div className="left">
       <h1>Who am I?</h1>
@@ -22,10 +23,19 @@ const AboutContent = () => (
         <div className="img-stack bottom">
           <img src={Rails} className="img" alt="Rails" />
         </div>
-
       </div>
     </div>
   </div>
+  <div className="skills>">
+    <h2 className="language">Language</h2>
+    <ul className="list">
+      <li className="lang">HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+  </>
+  
 );
 
 export default AboutContent;
