@@ -10,7 +10,7 @@ const AboutContent = () => (
   <div className="about">
     <div className="left">
       <h1>Who am I?</h1>
-      <p>Hello I’m a web developer! I can help you build a product , feature or website Look through some of my work! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+      <p>I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coding, don’t hesitate to contact me.</p>
       <Link to="/contact">
         <button className="btn" type="submit">Contact</button>
       </Link>
