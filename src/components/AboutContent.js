@@ -26,14 +26,14 @@ const AboutContent = () => (
       </div>
     </div>
   </div>
-  <div className="skills>">
+  {/* <div className="skills>">
     <h2 className="language">Language</h2>
     <ul className="list">
       <li className="lang">HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
     </ul>
-  </div>
+  </div> */}
   </>
   
 );
