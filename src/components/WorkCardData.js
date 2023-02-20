@@ -37,14 +37,14 @@ const ProjectCardData = [
   {
     imgsrc: pro5,
     title: 'Leaderboard',
-    text: 'This is the Leaderboard project build with webpack and the objective of this project is to use the API. API stands for Application Programming Interface as it Uses async and await JavaScript features to consume the API.',
+    text: 'This is the Leaderboard project build with webpack and the objective of this project is to use the API. API stands for Application Programming Interface as it uses async and await JavaScript features to consume the API.',
     view: 'https://suspicious-golick-545a0f.netlify.app/',
     Source: 'https://github.com/roshan-bajgain/Leaderboard',
   },
   {
     imgsrc: pro6,
     title: 'Metrics-webapp',
-    text: 'Covid19 Metrics is a web application that fetches covid data from API and renders it on the screen. It shows all countries with confirmed covid cases on the homepage, Users can select any country and go to the details page. The details page shows other details for that specific country like recovered cases, confirmed cases, and deaths.',
+    text: 'Covid19 Metrics is a web application that fetches covid data from API and renders it on the screen. It shows all countries with confirmed covid cases on the homepage, users can select any country and go to the details page. The details page shows other details for that specific country like recovered cases, confirmed cases, and deaths.',
     view: 'https://compassionate-mcnulty-d1bb1e.netlify.app/',
     Source: 'https://github.com/roshan-bajgain/metrics-webapp',
   },
